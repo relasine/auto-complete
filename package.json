@@ -1,0 +1,18 @@
+{
+  "name": "@relasine/auto-complete",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "https://github.com/relasine/auto-complete.git",
+    "url": "# Logs"
+  },
+  "keywords": [
+    "logs"
+  ],
+  "author": "*.log",
+  "license": "ISC"
+}
