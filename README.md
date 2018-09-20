@@ -33,31 +33,3 @@ To increase a word's priority when calling suggest():
 To delete a word from the pre-trie:
 
 ``` trie.delete(word); ```
-
-To install this module:
-
-``` npm install https://github.com/relasine/auto-complete.git ```
-
-To create a new instance of the pre-trie:
-
-``` const trie = new Trie(); ```
-
-To add a word to the pre-trie:
-
-``` trie.insert(newWord); ```
-
-To populate the trie with an array of strings:
-
-``` trie.populate(array); ```
-
-To call the auto-complete function:
-
-``` trie.suggest(string); ```
-
-To increase a word's priority when calling suggest():
-
-``` trie.select(word); ```
-
-To delete a word from the pre-trie:
-
-``` trie.delete(word); ```
