@@ -6,4 +6,4 @@ This repo contains an npm module for an auto-complete script. It was written usi
 
 To install this module:
 
-``` npm install https://github.com/relasine/auto-complete.git
+``` npm install https://github.com/relasine/auto-complete.git ```
