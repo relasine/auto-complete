@@ -5,22 +5,29 @@ This repo contains an npm module for an auto-complete script. It was written usi
 <img width="555" alt="screen shot 2018-09-20 at 7 42 57 am" src="https://user-images.githubusercontent.com/29719272/45822560-fa059e80-bca8-11e8-9493-0ecdfb868367.png">
 
 To install this module:
+
 ``` npm install https://github.com/relasine/auto-complete.git ```
 
 To create a new instance of the pre-trie:
+
 ``` const trie = new Trie(); ```
 
 To add a word to the pre-trie:
+
 ``` trie.insert(newWord); ```
 
 To populate the trie with an array of strings:
+
 ``` trie.populate(array); ```
 
 To call the auto-complete function:
+
 ``` trie.suggest(string); ```
 
 To increase a word's priority when calling suggest():
+
 ``` trie.select(word); ```
 
 To delete a word from the pre-trie:
+
 ``` trie.delete(word); ```
